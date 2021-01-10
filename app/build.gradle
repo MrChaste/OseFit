@@ -117,4 +117,15 @@ dependencies {
     kapt "androidx.room:room-compiler:$room_version"
     implementation "androidx.room:room-ktx:$room_version"
 
+    //Google Maps Location Service
+    implementation "com.google.android.gms:play-services-location:$google_location_and_maps_version"
+    implementation "com.google.android.gms:play-services-maps:$google_location_and_maps_version"
+
+    //Easy permissions
+    implementation "pub.devrel:easypermissions:$easypermissions_version"
+
+    //MPAndroidChart
+    implementation "com.github.PhilJay:MPAndroidChart:$MPAndroidChart_version"
+
+
 }

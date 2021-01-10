@@ -1,18 +1,21 @@
 // Top-level build file where you can add configuration options common to all sub-projects/modules.
 buildscript {
-    ext.kotlin_version = "1.4.20"
+    ext.kotlin_version = "1.4.21"
     ext.glide_version = "4.11.0"
     ext.hilt_version = '2.29.1-alpha'
     ext.hilt_lifecycle_version = '1.0.0-alpha02'
     ext.nav_version = '2.3.2'
-    ext.room_version = '2.3.0-alpha03'
+    ext.room_version = '2.3.0-alpha04'
     ext.lifecycle_version = '2.2.0'
-    ext.coroutine_version = '1.3.9'
+    ext.coroutine_version = '1.4.1'
     ext.recyclerview_version = '1.1.0'
     ext.activity_ktx_version = '1.1.0'
     ext.fragment_ktx_version ='1.2.5'
     ext.leak_canary_version = '2.4'
     ext.timber_version = '4.7.1'
+    ext.google_location_and_maps_version = '17.0.0'
+    ext.easypermissions_version = '3.0.0'
+    ext.MPAndroidChart_version = 'v3.1.0'
     repositories {
         google()
         jcenter()
